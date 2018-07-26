@@ -1,0 +1,38 @@
+#square{
+    background-color: red;
+    width: 250px;
+    height: 250px;
+    transition-property: width, height;
+    transition-duration: 1;
+    
+}
+
+@media all and (min-width: 400px){
+    #square{
+        background-color: blue;
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media all and (min-width: 401px ) and (max-width: 700px){
+    #square{
+        background-color: green;
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media all and (min-width: 701px){
+    #square{
+        background-color: green;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+
+    }
+}
+
+
+
+    }
